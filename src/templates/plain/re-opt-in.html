@@ -1,0 +1,50 @@
+---
+title: "Stay on our mailing list"
+wrapperClass: font-sans
+---
+
+<extends src="src/layouts/master.html">
+  <block name="template">
+    <div class="hidden">@{{PreviewText}}</div>
+
+    <table class="w-full bg-white">
+      <tr>
+        <td align="center">
+          <div class="leading-15">&zwnj;</div>
+          <table class="w-590 sm:w-full">
+            <tr>
+              <td class="text-base leading-26 text-gray-900 sm:px-20">
+                <p class="m-0 mb-15">
+                  @{{FirstName}},
+                </p>
+                <p class="m-0 mb-15">
+                  If your inbox is anything like ours, it's likely full with campaigns from various businesses vying for your attention.
+                </p>
+                <p class="m-0 mb-15">
+                  We’d hate to be annoying, but we'd would love to continue telling you about email marketing. We think it's important you stay informed and ahead of the game.
+                </p>
+                <p class="m-0 mb-15">
+                  So, do you still want to be on our mailing list? If so please click the link below.
+                </p>
+                <p class="m-0 mb-15 text-center">
+                  <a href="{{ConfirmURL}}" class="text-blue-600 underline hover:no-underline">Continue receiving emails</a>
+                </p>
+                <p class="m-0">
+                  Regards,
+                  <br>
+                  The EmailOctopus team
+                </p>
+              </td>
+            </tr>
+          </table>
+          <div class="leading-40">&zwnj;</div>
+          <hr class="border-0 bg-gray-200 text-gray-200 h-px">
+          <div class="leading-26">&zwnj;</div>
+          <div class="sm:px-20">
+            <p class="m-0 text-base leading-24 text-gray-500 text-center">If you'd like to opt out of all updates you can <a href="@{{UnsubscribeURL}}" class="text-gray-500 underline hover:no-underline">unsubscribe</a>.</p>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </block>
+</extends>

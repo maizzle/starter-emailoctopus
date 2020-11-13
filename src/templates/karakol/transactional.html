@@ -1,0 +1,147 @@
+---
+preheader: "Pre-header for the transactional template"
+title: "Karakol Transactional - a template from EmailOctopus"
+googleFonts: Titillium+Web|Source+Sans+Pro
+wrapperClass: font-source-sans-pro
+---
+
+<extends src="src/layouts/master.html">
+  <block name="template">
+    <!--[if gte mso 9]>
+    <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="mso-width-percent:1000;">
+    <v:fill type="gradient" color="#E78C5F" color2="#589667" angle="90" />
+    <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
+    <div><![endif]-->
+
+    <!-- ======= Header ======= -->
+    <table class="w-full">
+      <tr>
+        <td align="center" class="px-20 bg-karakol-header bg-cover bg-top-center bg-no-repeat">
+          <table class="w-590 sm:w-full">
+            <tr>
+              <td>
+                <div class="leading-25">&zwnj;</div>
+                <table class="w-full">
+                  <tr>
+                    <td class="w-2/5 sm:w-full sm:block sm:text-center sm:pb-8">
+                      <a href="https://emailoctopus.com">
+                        <img src="http://i.imgur.com/zsjieJb.png" width="200" alt="Karakol">
+                      </a>
+                    </td>
+                    <td align="right" class="w-3/5 sm:w-full sm:block align-middle">
+                      <table class="font-titillium-web sm:mx-auto">
+                        <tr>
+                          <td class="pr-35">
+                            <a href="https://emailoctopus.com" class="text-sm leading-24 text-gray-100 no-underline">Features</a>
+                          </td>
+                          <td class="pr-35">
+                            <a href="https://emailoctopus.com" class="text-sm leading-24 text-gray-100 no-underline">Testimonials</a>
+                          </td>
+                          <td>
+                            <a href="https://emailoctopus.com" class="text-sm leading-24 text-gray-100 no-underline">Contact</a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <div class="leading-64 sm:leading-48">&zwnj;</div>
+                <table class="w-full">
+                  <tr>
+                    <td class="px-48 sm:px-0 text-center font-titillium-web text-gray-50">
+                      <h1 class="m-0 text-4xl sm:text-3xl">PASSWORD RESET</h1>
+                      <div class="leading-64">&zwnj;</div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <!-- ======= Header End ======= -->
+
+    <!-- ======= Password Reset ======= -->
+    <table class="w-full bg-white">
+      <tr>
+        <td align="center" class="px-20">
+          <table class="w-590 sm:w-full">
+            <tr>
+              <td class="leading-56">&zwnj;</td>
+            </tr>
+            <tr>
+              <td>
+                <p class="m-0 text-lg leading-24 font-medium text-gray-900">Hi @{{name}},</p>
+                <div class="leading-20">&zwnj;</div>
+                <p class="m-0 text-base leading-24 text-gray-600">
+                  You recently requested to reset your password for your EmailOctopus account. Use the button below to reset it.
+                </p>
+                <div class="leading-24">&zwnj;</div>
+                <div class="text-center">
+                  <a
+                    href="https://emailoctopus.com/"
+                    class="inline-block py-16 px-40 text-sm leading-none no-underline border border-solid border-green-500 rounded-full text-green-500 hover:text-gray-50 hover:bg-green-500 font-semibold">
+                    <!--[if mso]><i style="letter-spacing: 27px; mso-font-width: -100%; mso-text-raise: 26pt;">&nbsp;</i><![endif]-->
+                    <span style="mso-text-raise: 8pt;">RESET PASSWORD</span>
+                    <!--[if mso]><i style="letter-spacing: 27px; mso-font-width: -100%;">&nbsp;</i><![endif]-->
+                  </a>
+                </div>
+                <div class="leading-24">&zwnj;</div>
+                <p class="m-0 text-base leading-24 text-gray-600">
+                  This request was received from a laptop device using MacOS.
+                  If you did not request a password reset, please ignore this email or contact support if you have questions.
+                </p>
+                <div class="leading-20">&zwnj;</div>
+                <p class="m-0 text-base leading-24 text-gray-600">
+                  Thanks,
+                  <br>
+                  The EmailOctopus Team
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="leading-56">&zwnj;</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <!-- ======= Password Reset End ======= -->
+
+    <!-- ======= Footer ======= -->
+    <table class="w-full bg-white">
+      <tr>
+        <td align="center" class="px-20 bg-gray-100">
+          <table class="w-590 sm:w-full">
+            <tr>
+              <td class="leading-25">&zwnj;</td>
+            </tr>
+            <tr>
+              <td>
+                <p class="m-0 text-xs leading-20 text-center text-gray-600">
+                  Address Line 1,
+                  <br>
+                  Address Line 2,
+                  <br>
+                  Zip Code
+                </p>
+                <div class="leading-25">&zwnj;</div>
+                <p class="m-0 text-xs leading-20 text-center text-gray-600">
+                  You're receiving this email because you've signed up to receive updates from EmailOctopus.
+                  If you'd prefer not to receive updates you can <a href="@{{UnsubscribeURL}}" class="underline text-gray-600 hover:no-underline">unsubscribe</a>.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="leading-25">&zwnj;</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <!-- ======= Footer End ======= -->
+
+    <!--[if gte mso 9]></div></v:textbox></v:rect><![endif]-->
+    </block>
+  </extends>
