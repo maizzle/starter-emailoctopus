@@ -1,4 +1,5 @@
 module.exports = {
+  mode: 'jit',
   theme: {
     screens: {
       sm: {max: '590px'},

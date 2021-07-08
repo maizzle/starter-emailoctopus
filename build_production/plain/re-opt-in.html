@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml">
 
   <head>
     <meta charset="utf-8">
@@ -8,10 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
     <!--[if mso]>
-    <xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml>
-    <style>
-      td,th,div,p,a,h1,h2,h3,h4,h5,h6 {font-family: "Segoe UI", sans-serif; mso-line-height-rule: exactly;}
-    </style>
+  <noscript>
+    <xml>
+      <o:OfficeDocumentSettings xmlns:o="urn:schemas-microsoft-com:office:office">
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+  </noscript>
+  <style>
+    td,th,div,p,a,h1,h2,h3,h4,h5,h6 {font-family: "Segoe UI", sans-serif; mso-line-height-rule: exactly;}
+  </style>
   <![endif]-->
     <title>Stay on our mailing list</title>
     <style>
@@ -20,22 +26,22 @@
       }
 
       @media (max-width: 590px) {
+        .sm-w-full {
+          width: 100% !important;
+        }
+
         .sm-px-20 {
           padding-left: 20px !important;
           padding-right: 20px !important;
-        }
-
-        .sm-w-full {
-          width: 100% !important;
         }
       }
     </style>
   </head>
 
-  <body style="margin: 0; padding: 0; width: 100%; word-break: break-word; -webkit-font-smoothing: antialiased;">
+  <body style="margin: 0; width: 100%; padding: 0; word-break: break-word; -webkit-font-smoothing: antialiased;">
     <div role="article" aria-roledescription="email" aria-label="Stay on our mailing list" lang="en">
       <div style="display: none;">{{PreviewText}}</div>
-      <table style="background-color: #ffffff; width: 100%;" cellpadding="0" cellspacing="0" role="presentation">
+      <table style="width: 100%; background-color: #ffffff;" cellpadding="0" cellspacing="0" role="presentation">
         <tr>
           <td align="center">
             <div style="line-height: 15px;">&zwnj;</div>
@@ -55,7 +61,7 @@
                     So, do you still want to be on our mailing list? If so please click the link below.
                   </p>
                   <p style="margin: 0; margin-bottom: 15px; text-align: center;">
-                    <a href="undefined" class="hover-no-underline" style="color: #2563eb; text-decoration: underline;">Continue receiving emails</a>
+                    <a href="{{ConfirmURL}}" class="hover-no-underline" style="color: #2563eb; text-decoration: underline;">Continue receiving emails</a>
                   </p>
                   <p style="margin: 0;">
                     Regards,
@@ -66,10 +72,10 @@
               </tr>
             </table>
             <div style="line-height: 40px;">&zwnj;</div>
-            <hr style="background-color: #e5e7eb; border-width: 0; height: 1px; color: #e5e7eb;">
+            <hr style="height: 1px; border-width: 0; background-color: #e5e7eb; color: #e5e7eb;">
             <div style="line-height: 26px;">&zwnj;</div>
             <div class="sm-px-20">
-              <p style="font-size: 16px; line-height: 24px; margin: 0; text-align: center; color: #6b7280;">If you'd like to opt out of all updates you can <a href="{{UnsubscribeURL}}" class="hover-no-underline" style="color: #6b7280; text-decoration: underline;">unsubscribe</a>.</p>
+              <p style="margin: 0; text-align: center; font-size: 16px; line-height: 24px; color: #6b7280;">If you'd like to opt out of all updates you can <a href="{{UnsubscribeURL}}" class="hover-no-underline" style="color: #6b7280; text-decoration: underline;">unsubscribe</a>.</p>
             </div>
           </td>
         </tr>

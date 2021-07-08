@@ -21,8 +21,5 @@ module.exports = {
         destination: 'images',
       },
     },
-    tailwind: {
-      css: 'src/assets/css/main.css',
-    },
   },
 }
