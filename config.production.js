@@ -17,7 +17,8 @@ module.exports = {
       },
     },
   },
-  inlineCSS: true,
   prettify: true,
+  inlineCSS: true,
   removeUnusedCSS: true,
+  shorthandInlineCSS: true,
 }
