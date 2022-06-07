@@ -1,4 +1,16 @@
-## Maizzle EmailOctopus Starter
+<div align="center">
+  <p>
+    <a href="https://maizzle.com/#gh-light-mode-only" target="_blank">
+      <img src="./.github/logo-light.svg" alt="Maizzle" width="200">
+    </a>
+    <a href="https://maizzle.com/#gh-dark-mode-only" target="_blank">
+      <img src="./.github/logo-dark.svg" alt="Maizzle" width="200">
+    </a>
+  </p>
+  <p>EmailOctopus Starter</p>
+</div>
+
+## About
 
 The original EmailOctopus responsive email templates, rebuilt with Tailwind CSS in Maizzle.
 
