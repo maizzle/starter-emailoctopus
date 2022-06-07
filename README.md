@@ -1,4 +1,16 @@
-## Maizzle EmailOctopus Starter
+<div align="center">
+  <p>
+    <a href="https://maizzle.com/#gh-light-mode-only" target="_blank">
+      <img src="./.github/logo-light.svg" alt="Maizzle" width="200">
+    </a>
+    <a href="https://maizzle.com/#gh-dark-mode-only" target="_blank">
+      <img src="./.github/logo-dark.svg" alt="Maizzle" width="200">
+    </a>
+  </p>
+  <p>EmailOctopus Starter</p>
+</div>
+
+## About
 
 The original EmailOctopus responsive email templates, rebuilt with Tailwind CSS in Maizzle.
 
@@ -16,16 +28,25 @@ Then, scaffold a new project with this Starter:
 maizzle new maizzle/starter-emailoctopus
 ```
 
-Develop locally:
+Alternatively, you may clone this starter directly:
+
+```bash
+# remember to install dependencies with `npm install`
+npx degit maizzle/starter-netlify-identity
+```
+
+## Development
+
+Start a local development server:
 
 ```
-maizzle serve
+npm run dev
 ```
 
 Build for production:
 
 ```
-maizzle build production
+npm run build
 ```
 
 ## Documentation
